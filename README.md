@@ -1,6 +1,6 @@
 # KidneyTalk 
 
-http://202.112.180.149/#/chat
+http://kidneytalk.bjmu.edu.cn
 
 仅北医内网可以调用。兼容OpenAI的API风格，更详细的参数看OpenAI的[官方文档](https://platform.openai.com/docs/api-reference/chat/create)
 
