@@ -1,8 +1,14 @@
 # KidneyTalk 
 
-http://kidneytalk.bjmu.edu.cn
+使用链接：http://kidneytalk.bjmu.edu.cn
 
-仅北医内网可以调用。兼容OpenAI的API风格，更详细的参数看OpenAI的[官方文档](https://platform.openai.com/docs/api-reference/chat/create)
+[[发布]](https://mp.weixin.qq.com/s/zLhWR9dYOgdF_780vfkACg)
+[[功能介绍]](https://mp.weixin.qq.com/s/Hh8sbBbHpdjA3ffCrb7D4A)
+
+
+## API接口端
+
+兼容OpenAI的API风格，更详细的参数看OpenAI的[官方文档](https://platform.openai.com/docs/api-reference/chat/create)
 
 ### 文本模型：`L-72B`
 ```bash
