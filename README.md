@@ -6,14 +6,18 @@ http://kidneytalk.bjmu.edu.cn
 
 ### 文本模型：`L-72B`
 ```bash
-curl \ 
-	http://202.112.180.149/api/v1/chat/completions \
-    -H "Content-Type: application/json" \
+curl \
+    'https://kidneytalk.bjmu.edu.cn/api/v1/chat/completions' \
+    -H 'Content-Type: application/json' \
     -d '{
-	        "model": "L-72B",
-	        "messages": [
-	            {"role": "user", "content": "什么是CDK"}
-	        ]
+        "model": "L-72B",
+        "temperature": 0.5,
+        "messages": [
+            {
+                "role": "user",
+                "content": "hello"
+            }
+        ]
     }'
 ```
 
@@ -21,7 +25,7 @@ curl \
 ### 视觉模型：`V-72B`
 ```bash
 curl \
-    http://202.112.180.149/api/v1/chat/completions \
+    https://kidneytalk.bjmu.edu.cn/api/v1/chat/completions \
     -H "Content-Type: application/json" \
     -d '{
         "model": "VL-72B", 
@@ -48,14 +52,16 @@ curl \
     }'
 ```
 
+> 注意：$base64_content必须是图片的base64编码，不接受图片的url形式，因为北大内网机无法联网
+
 ### 嵌入模型：`E-72B`
 ```bash
 curl \
-	http://202.112.180.149/api/v1/embeddings \
+	https://kidneytalk.bjmu.edu.cn/api/v1/embeddings \
 	-H "Content-Type: application/json" \
 	-d '{
 		"input": "The food was delicious and the waiter...",
-	    "model": "E-72B",
-	    "encoding_format": "float"
+	    	"model": "E-72B",
+	    	"encoding_format": "float"
 	}'
 ```
