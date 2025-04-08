@@ -60,7 +60,7 @@ curl \
 
 > 注意：$base64_content必须是图片的base64编码，不接受图片的url形式，因为北大内网机无法联网
 
-### 嵌入模型：`E-72B`
+### 嵌入模型：`E-72B`（暂不可用）
 ```bash
 curl \
 	https://kidneytalk.bjmu.edu.cn/api/v1/embeddings \
