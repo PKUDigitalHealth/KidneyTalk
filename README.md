@@ -1,6 +1,6 @@
 # KidneyTalk 
 
-使用链接：http://kidneytalk.bjmu.edu.cn
+使用链接：https://kidneytalk.bjmu.edu.cn
 
 [[发布]](https://mp.weixin.qq.com/s/zLhWR9dYOgdF_780vfkACg)
 [[功能介绍]](https://mp.weixin.qq.com/s/Hh8sbBbHpdjA3ffCrb7D4A)
